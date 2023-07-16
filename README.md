@@ -6,6 +6,6 @@ I was heavily guided by one of the published Kaggle notebooks (<a href="https://
 <br/>
 This produced better results compared to the original notebook. The prediction accuracy slightly improved by 3%, the confusion matrix results showed a clearer distinction between different artists and better recognition of the same artist through Actual vs Predicted comparison. However, the major difference was in the actual prediction testing, where mine were much higher while the original notebook had a lot of low prediction probabilities even reaching 27.65%.
 <br/><br/>
-**Results:**
+<b>Results:</b>
 <br/>
 <img width="685" alt="Screenshot 2023-07-16 at 11 23 17 PM" src="https://github.com/HazAI01/Artificial-Aesthete/assets/120788731/616cbef2-24d0-4657-b238-92d4fe15e1db">
