@@ -1,6 +1,6 @@
 # Artificial Aesthete
 <br/>
-In this project I implement the ResNet-50 CNN on a dataset for <a href="https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time"> Best Artworks of All Time </a> which is a collection of paintings of the 50 most influential artists of all time, in the goal of creating a model that is able to identify the artist just by looking at the painting.
+In this project I implement the ResNet-50 CNN on a dataset for <a href="https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time"> Best Artworks of All Time </a> which is a collection of paintings of the 50 most influential artists of all time, in the goal of creating a model that is able to identify the artist just by looking at the painting. I was interested in whether the network would be able to detect beyond the obvious "object detection" and instead "read between the lines", which it did!
 <br/>
 I was heavily guided by one of the published Kaggle notebooks (<a href="https://www.kaggle.com/code/supratimhaldar/deepartist-identify-artist-from-art/notebook">link here</a>) that worked on the same dataset for the same objective, however I’ve made some modifications by introducing a Max Pooling layer in the ResNet model and then freezing the first 25 layers for the second training, it was also observed that in my version the Early Stopping callback wasn’t triggered in the second training so the model trained for 50 full epochs while the original notebook stopped early by the 31st epoch.
 <br/>
